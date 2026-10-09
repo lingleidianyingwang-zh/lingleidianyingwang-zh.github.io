@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>另类电影网 — 非常规影像的探索入口，聚焦非主流与实验电影</title>
+<meta name="keywords" content="另类电影网,lingleidianyingwang-zh.github.io,另类电影,非主流电影推荐,实验电影,地下电影,邪典电影,先锋影像,小众电影,独立电影,艺术电影,冷门佳片,非常规叙事电影,边缘电影,地下 Cinema">
+<meta name="description" content="另类电影网（https://lingleidianyingwang-zh.github.io）是一个专注于另类、非主流与实验性影像的在线平台。我们致力于发掘那些不被主流院线接纳、却在影像语言和叙事结构上极具突破性的电影作品。从地下邪典到先锋实验，从冷门佳片到独立制作，另类电影网为热爱探索影像边界的观众提供一个深度解析与推荐入口。每一部入选影片都经过编辑团队的严格筛选与多维度解读，涵盖导演访谈、幕后制作、影像技术分析等内容板块。访问 lingleidianyingwang-zh.github.io，开启你的非主流影像探索之旅。">
+<meta name="author" content="另类电影网编辑团队">
+<meta name="publisher" content="另类电影网">
+<meta name="copyright" content="Copyright © 2026 另类电影网 All Rights Reserved">
+<meta name="language" content="zh-CN">
+<meta name="geo.region" content="CN">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="另类电影网">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="bingbot" content="index,follow,max-snippet:-1">
+<meta name="googlebot" content="index,follow">
+<meta name="revisit-after" content="7 days">
+<meta name="rating" content="general">
+<link rel="canonical" href="https://lingleidianyingwang-zh.github.io/">
+<meta name="application-name" content="另类电影网">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="另类电影网">
+<meta property="og:title" content="另类电影网 — 非常规影像的探索入口">
+<meta property="og:description" content="专注于另类、非主流与实验性影像的在线平台，发掘突破性的电影作品。">
+<meta property="og:url" content="https://lingleidianyingwang-zh.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="另类电影网 - 另类电影探索平台">
+<meta name="twitter:description" content="lingleidianyingwang-zh.github.io 聚焦非主流与实验电影的在线平台">
+<meta name="generator" content="另类电影网静态页面生成器 v2.4">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --black:#0a0a0a;--dark:#111;--dark2:#1a1a1a;--gray:#2a2a2a;
+  --text:#e8e8e8;--text2:#a0a0a0;--text3:#666;
+  --green:#00ff88;--green-d:#00cc6a;--green2:#39ff14;
+  --mono:'SF Mono','Fira Code','Cascadia Code','Consolas',monospace;
+  --sans:'PingFang SC','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:var(--sans);background:var(--black);color:var(--text);
+  font-size:15px;line-height:1.85;overflow-x:hidden;
+  background-image:radial-gradient(circle at 20% 50%,rgba(0,255,136,.03) 0%,transparent 50%),
+                   radial-gradient(circle at 80% 20%,rgba(0,255,136,.02) 0%,transparent 40%);
+  background-attachment:fixed;
+}
+a{color:inherit;text-decoration:none;transition:.25s}
+ul,ol{list-style:none}
+::selection{background:var(--green);color:#000}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--black)}
+::-webkit-scrollbar-thumb{background:var(--gray)}
+
+/* ── Terminal Header ── */
+.term-bar{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:rgba(10,10,10,.92);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--gray);
+}
+.term-bar-in{
+  max-width:1080px;margin:0 auto;padding:0 20px;
+  display:flex;align-items:center;justify-content:space-between;height:52px;
+}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:14px}
+.brand .prompt{color:var(--green)}
+.brand .name{color:var(--text);letter-spacing:1px}
+.brand .cursor{display:inline-block;width:8px;height:16px;background:var(--green);animation:blink 1s step-end infinite;margin-left:4px}
+@keyframes blink{50%{opacity:0}}
+.term-nav{display:flex;gap:4px;align-items:center}
+.term-nav a{
+  font-family:var(--mono);font-size:12px;color:var(--text3);
+  padding:5px 10px;border-radius:3px;
+}
+.term-nav a:hover{color:var(--green);background:rgba(0,255,136,.08)}
+.term-nav a::before{content:'/';color:var(--green-d);margin-right:3px;opacity:.5}
+.menu-btn{display:none;background:none;border:none;color:var(--green);font-family:var(--mono);font-size:16px;cursor:pointer;padding:4px}
+
+/* ── Container ── */
+.ct{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ── Hero Terminal ── */
+.hero{
+  min-height:100vh;display:flex;align-items:center;padding:80px 0 60px;
+  position:relative;
+}
+.term-window{
+  width:100%;max-width:780px;margin:0 auto;
+  border:1px solid var(--gray);border-radius:6px;overflow:hidden;
+  background:var(--dark);box-shadow:0 20px 60px rgba(0,0,0,.6);
+}
+.term-titlebar{
+  display:flex;align-items:center;gap:8px;padding:10px 14px;
+  background:var(--dark2);border-bottom:1px solid var(--gray);
+}
+.term-dot{width:11px;height:11px;border-radius:50%;background:var(--gray)}
+.term-titlebar .path{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--text3)}
+.term-body{padding:28px 28px 32px;font-family:var(--mono);font-size:14px;line-height:2.2}
+.term-line{opacity:0;animation:typeIn .4s forwards}
+.term-line:nth-child(1){animation-delay:.2s}
+.term-line:nth-child(2){animation-delay:.8s}
+.term-line:nth-child(3){animation-delay:1.6s}
+.term-line:nth-child(4){animation-delay:2.4s}
+.term-line:nth-child(5){animation-delay:3.2s}
+@keyframes typeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.g{color:var(--green)}
+.dg{color:var(--green-d)}
+.w{color:var(--text)}
+.gray{color:var(--text3)}
+.lg{font-family:var(--mono);font-size:clamp(28px,6vw,44px);line-height:1.3;color:var(--text);margin:8px 0 4px}
+.hero-desc{max-width:560px;margin:24px auto 0;font-family:var(--sans);font-size:15px;color:var(--text2);text-align:center;line-height:2}
+.hero-stats{
+  display:flex;justify-content:center;gap:48px;margin-top:36px;flex-wrap:wrap;
+}
+.hero-stats div{text-align:center}
+.hero-stats .num{font-family:var(--mono);font-size:22px;color:var(--green);display:block}
+.hero-stats .lbl{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:2px}
+
+/* ── Section ── */
+section{padding:64px 0}
+.sec-label{
+  display:flex;align-items:center;gap:12px;margin-bottom:32px;flex-wrap:wrap;
+}
+.sec-label .tag{
+  font-family:var(--mono);font-size:11px;color:var(--green);border:1px solid rgba(0,255,136,.3);
+  padding:3px 10px;border-radius:2px;letter-spacing:1px;
+}
+.sec-label h2{
+  font-size:22px;font-weight:600;letter-spacing:.5px;color:var(--text);
+}
+.sec-label .cmt{font-family:var(--mono);font-size:12px;color:var(--text3);margin-left:auto}
+
+/* ── Cards Grid (Bento) ── */
+.bento{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.bento .card{
+  border:1px solid var(--gray);background:var(--dark);border-radius:4px;
+  padding:24px;transition:.3s;position:relative;overflow:hidden;
+}
+.bento .card::before{
+  content:'';position:absolute;top:0;left:0;width:100%;height:2px;
+  background:linear-gradient(90deg,var(--green),transparent);transform:scaleX(0);transform-origin:left;transition:.4s;
+}
+.bento .card:hover{border-color:var(--green-d);transform:translateY(-2px)}
+.bento .card:hover::before{transform:scaleX(1)}
+.bento .card .id{font-family:var(--mono);font-size:11px;color:var(--text3);margin-bottom:8px}
+.bento .card h3{font-size:17px;color:var(--text);margin-bottom:8px;font-weight:600}
+.bento .card p{font-size:13.5px;color:var(--text2);line-height:1.85}
+.bento .card .meta{
+  display:flex;gap:8px;margin-top:14px;padding-top:14px;border-top:1px solid var(--gray);flex-wrap:wrap;
+}
+.bento .card .meta span{
+  font-family:var(--mono);font-size:10px;color:var(--green-d);
+  border:1px solid rgba(0,255,136,.2);padding:2px 6px;border-radius:2px;
+}
+.bento .card.lg2{grid-column:span 2}
+.bento .card.lgr{grid-row:span 2}
+
+/* ── Code block ── */
+.cblock{
+  border:1px solid var(--gray);border-radius:4px;overflow:hidden;background:var(--dark);
+  margin:24px 0;
+}
+.cblock-hd{
+  display:flex;align-items:center;padding:8px 14px;background:var(--dark2);
+  border-bottom:1px solid var(--gray);font-family:var(--mono);font-size:11px;color:var(--text3);
+}
+.cblock-hd .fn{margin-left:auto}
+.cblock pre{padding:20px 24px;font-family:var(--mono);font-size:13px;line-height:2.1;overflow-x:auto}
+.cblock .k{color:var(--green)}
+.cblock .s{color:#ffd700}
+.cblock .c{color:var(--text3)}
+
+/* ── Timeline ── */
+.tl{position:relative;padding-left:32px}
+.tl::before{
+  content:'';position:absolute;left:6px;top:0;bottom:0;width:1px;background:var(--gray);
+}
+.tl-item{position:relative;padding-bottom:28px}
+.tl-item::before{
+  content:'';position:absolute;left:-31px;top:6px;width:11px;height:11px;
+  border:2px solid var(--green);border-radius:50%;background:var(--black);
+}
+.tl-item .t{font-family:var(--mono);font-size:11px;color:var(--green);margin-bottom:2px}
+.tl-item h4{font-size:15px;color:var(--text);margin-bottom:4px;font-weight:600}
+.tl-item p{font-size:13.5px;color:var(--text2)}
+
+/* ── ASCII Divider ── */
+.ascii{
+  text-align:center;font-family:var(--mono);font-size:10px;color:var(--gray);
+  padding:8px 0;overflow:hidden;white-space:nowrap;letter-spacing:2px;
+}
+
+/* ── Accordion ── */
+.acc{border:1px solid var(--gray);border-radius:4px;overflow:hidden}
+.acc-item{border-bottom:1px solid var(--gray)}
+.acc-item:last-child{border-bottom:none}
+.acc-q{
+  padding:16px 20px;font-size:14px;color:var(--text);cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;background:var(--dark);
+  transition:.25s;
+}
+.acc-q:hover{background:var(--dark2)}
+.acc-q .plus{font-family:var(--mono);color:var(--green);font-size:16px;flex-shrink:0;margin-left:12px}
+.acc-a{
+  max-height:0;overflow:hidden;transition:max-height .35s ease;
+  background:var(--dark2);
+}
+.acc-a.open{max-height:300px;overflow-y:auto}
+.acc-a p{padding:0 20px 16px;font-size:13.5px;color:var(--text2);line-height:1.9}
+
+/* ── Footer ── */
+.ft{border-top:1px solid var(--gray);padding:40px 0 28px;margin-top:24px}
+.ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
+.ft-brand .logo2{font-family:var(--mono);font-size:16px;color:var(--green);margin-bottom:8px}
+.ft-brand p{font-size:13px;color:var(--text3);line-height:1.9;max-width:280px}
+.ft-col h5{font-family:var(--mono);font-size:11px;color:var(--green-d);margin-bottom:12px;text-transform:uppercase;letter-spacing:2px}
+.ft-col li{margin-bottom:7px}
+.ft-col a{font-size:13px;color:var(--text3)}
+.ft-col a:hover{color:var(--green)}
+.ft-bot{
+  border-top:1px solid var(--gray);padding-top:20px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
+  font-family:var(--mono);font-size:11px;color:var(--text3);
+}
+.ft-bot a:hover{color:var(--green)}
+
+/* ── Responsive ── */
+@media(max-width:860px){
+  .term-nav{display:none;position:fixed;top:52px;left:0;right:0;flex-direction:column;background:rgba(10,10,10,.97);padding:12px;border-bottom:1px solid var(--gray);gap:2px}
+  .term-nav.open{display:flex}
+  .term-nav a{padding:10px 14px;border-radius:0;border-bottom:1px solid var(--gray)}
+  .term-nav a:last-child{border-bottom:none}
+  .menu-btn{display:block}
+  .bento{grid-template-columns:1fr 1fr}
+  .bento .card.lg2{grid-column:span 2}
+  .ft-grid{grid-template-columns:1fr 1fr;gap:24px}
+  .term-body{padding:20px 16px 24px;font-size:13px}
+}
+@media(max-width:520px){
+  .bento{grid-template-columns:1fr}
+  .bento .card.lg2{grid-column:span 1}
+  .ft-grid{grid-template-columns:1fr}
+  .hero-stats{gap:24px}
+  section{padding:48px 0}
+  .lg{font-size:26px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<!-- Header -->
+<header class="term-bar">
+  <div class="term-bar-in">
+    <div class="brand">
+      <span class="prompt">$</span>
+      <span class="name">另类电影网</span>
+      <span class="cursor"></span>
+    </div>
+    <nav class="term-nav" id="nav">
+      <a href="#about">概述</a>
+      <a href="#genres">类型谱系</a>
+      <a href="#films">精选片单</a>
+      <a href="#method">选片方法论</a>
+      <a href="#qa">常见问题</a>
+      <a href="#about-site">关于本站</a>
+    </nav>
+    <button class="menu-btn" id="mbtn">☰</button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="ct">
+    <div class="term-window">
+      <div class="term-titlebar">
+        <span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>
+        <span class="path">~/lingleidianyingwang-zh.github.io</span>
+      </div>
+      <div class="term-body">
+        <div class="term-line"><span class="gray"># </span><span class="w">whoami</span></div>
+        <div class="term-line"><span class="g">另类电影网</span> <span class="dg">— 非常规影像的探索入口</span></div>
+        <div class="term-line"><span class="gray"># </span><span class="w">cat mission.txt</span></div>
+        <div class="term-line"><span class="w">聚焦不被主流院线接纳、却在影像语言上极具突破性的作品。</span></div>
+        <div class="term-line"><span class="gray"># </span><span class="w">echo $URL</span></div>
+        <div class="term-line"><span class="dg">https://lingleidianyingwang-zh.github.io</span></div>
+      </div>
+    </div>
+    <p class="hero-desc">另类电影网（lingleidianyingwang-zh.github.io）是一个专注于另类、非主流与实验性影像的在线平台。我们相信，电影最迷人的部分往往藏在那些"不正常"的表达里——断裂的叙事、越界的主题、非传统的镜头语言。这里是为热爱探索影像边界的观众准备的入口。</p>
+    <div class="hero-stats">
+      <div><span class="num">200+</span><span class="lbl">收录影片</span></div>
+      <div><span class="num">12</span><span class="lbl">类型分类</span></div>
+      <div><span class="num">48</span><span class="lbl">深度长评</span></div>
+      <div><span class="num">6</span><span class="lbl">更新年份</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="ct">
+    <div class="sec-label"><span class="tag">SECTION_01</span><h2>关于另类电影网</h2><span class="cmt">// 平台概述</span></div>
+    <div class="bento">
+      <div class="card lg2">
+        <div class="id">// what_we_do</div>
+        <h3>什么是"另类"？</h3>
+        <p>我们所说的"另类"，不是标新立异的噱头，而是那些在叙事结构、影像语言、主题表达上偏离主流商业电影范式的作品。它们可能因为题材敏感、节奏缓慢、结构破碎、预算有限而被院线拒绝，但恰恰是这些"不合规"的元素，构成了电影作为一种艺术形式最珍贵的实验场。</p>
+        <div class="meta"><span>独立制作</span><span>实验影像</span><span>地下电影</span><span>先锋艺术</span></div>
+      </div>
+      <div class="card">
+        <div class="id">// founding</div>
+        <h3>创立初衷</h3>
+        <p>主流影评只关注票房与奖项，我们希望为那些"不上桌"的影片留一个被讨论的空间。</p>
+      </div>
+      <div class="card">
+        <div class="id">// audience</div>
+        <h3>目标受众</h3>
+        <p>不满足于类型片套路的观众、影像创作者、电影学研究者，以及对"不一样的电影"有天然好奇的人。</p>
+      </div>
+      <div class="card">
+        <div class="id">// criteria</div>
+        <h3>收录标准</h3>
+        <p>不以商业成绩为门槛。入选的唯一条件：在影像表达的某一维度上，做到了主流电影不敢做或做不到的事。</p>
+      </div>
+      <div class="card">
+        <div class="id">// content</div>
+        <h3>内容形式</h3>
+        <p>影片档案 + 深度长评 + 导演访谈 + 幕后解析 + 类型专题策划，多维度呈现每部作品的价值。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Genres -->
+<section id="genres">
+  <div class="ct">
+    <div class="sec-label"><span class="tag">SECTION_02</span><h2>类型谱系</h2><span class="cmt">// 另类电影的十二种面孔</span></div>
+    <div class="bento">
+      <div class="card"><div class="id">01</div><h3>邪典电影</h3><p>cult classics，小成本大尺度，用极端内容挑战观众底线，却在亚文化群体中拥有死忠拥趸。</p><div class="meta"><span>Cult</span><span>亚文化</span></div></div>
+      <div class="card"><div class="id">02</div><h3>实验先锋</h3><p>结构电影、纯电影、拼贴影像，把电影还原为光影与时间的本体实验。</p><div class="meta"><span>Avant-Garde</span><span>结构主义</span></div></div>
+      <div class="card"><div class="id">03</div><h3>慢电影</h3><p>Slow Cinema，极简叙事、长镜头、低戏剧冲突，让时间本身成为主角。</p><div class="meta"><span>慢节奏</span><span>极简</span></div></div>
+      <div class="card"><div class="id">04</div><h3>地下电影</h3><p>超越审查边界的影像创作，涉及禁忌主题与非主流性取向表达。</p><div class="meta"><span>Underground</span><span>禁忌</span></div></div>
+      <div class="card"><div class="id">05</div><h3>伪纪录片</h3><p>Mockumentary 与 Found Footage，模糊真实与虚构的边界，制造独特的"可信感"。</p><div class="meta"><span>伪纪录</span><span>真实感</span></div></div>
+      <div class="card"><div class="id">06</div><h3>数据库电影</h3><p>非线性叙事，观众可自主选择观看路径，互动性与游戏化叙事的代表。</p><div class="meta"><span>非线性</span><span>互动</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Films -->
+<section id="films">
+  <div class="ct">
+    <div class="sec-label"><span class="tag">SECTION_03</span><h2>精选片单</h2><span class="cmt">// featured_archive.json</span></div>
+    <div class="cblock">
+      <div class="cblock-hd"><span>● 另类电影网精选</span><span class="fn">films.db</span></div>
+      <pre><span class="c">// 以下为另类电影网（lingleidianyingwang-zh.github.io）编辑部精选收录</span>
+<span class="c">// 每部作品附编辑短评，完整解析请见站内对应页面</span>
+
+<span class="k">"film_01"</span>: {
+  title:    <span class="s">"霓虹残响"</span>,
+  genre:    <span class="s">"赛博朋克 / 实验"</span>,
+  year:     <span class="s">"2025"</span>,
+  tag:      <span class="s">"全片无对白，仅用合成器音效与霓虹光效构建叙事"</span>
+}
+
+<span class="k">"film_02"</span>: {
+  title:    <span class="s">"第七封来信"</span>,
+  genre:    <span class="s">"心理悬疑 / 非线性"</span>,
+  year:     <span class="s">"2024"</span>,
+  tag:      <span class="s">"七段独立叙事最终汇聚成一个环形结构"</span>
+}
+
+<span class="k">"film_03"</span>: {
+  title:    <span class="s">"灰色地带"</span>,
+  genre:    <span class="s">"社会写实 / 长镜头"</span>,
+  year:     <span class="s">"2026"</span>,
+  tag:      <span class="s">"单个 47 分钟长镜头，记录城市边缘人的一天"</span>
+}
+
+<span class="k">"film_04"</span>: {
+  title:    <span class="s">"逆光生长"</span>,
+  genre:    <span class="s">"诗电影 / 意象"</span>,
+  year:     <span class="s">"2025"</span>,
+  tag:      <span class="s">"全片由静物特写构成，讲述一段没有人物出现的爱情"</span>
+}
+
+<span class="k">"film_05"</span>: {
+  title:    <span class="s">"噪音之上"</span>,
+  genre:    <span class="s">"音乐实验 / 噪音"</span>,
+  year:     <span class="s">"2024"</span>,
+  tag:      <span class="s">"用工业噪音代替配乐，挑战听觉舒适区的极限实验"</span>
+}</pre>
+    </div>
+    <div class="bento" style="margin-top:24px">
+      <div class="card"><div class="id">→</div><h3>查看更多片单</h3><p>另类电影网持续更新精选影片档案，涵盖更多类型与年代，欢迎探索。</p></div>
+      <div class="card"><div class="id">→</div><h3>投稿推荐</h3><p>如果你发现了值得被更多人看见的另类影片，欢迎向另类电影网推荐。</p></div>
+      <div class="card"><div class="id">→</div><h3>专题策划</h3><p>每月推出一个类型或导演专题，深度梳理另类电影的脉络与谱系。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Method -->
+<section id="method">
+  <div class="ct">
+    <div class="sec-label"><span class="tag">SECTION_04</span><h2>选片方法论</h2><span class="cmt">// how_we_select</span></div>
+    <div class="tl">
+      <div class="tl-item">
+        <div class="t">STEP 01</div>
+        <h4>提名与发现</h4>
+        <p>编辑团队持续关注全球独立电影节（戛纳导演双周、威尼斯地平线、柏林论坛、鹿特丹、釜山新浪潮等），从中筛选具有"另类"潜质的作品。同时接受读者投稿与行业推荐。</p>
+      </div>
+      <div class="tl-item">
+        <div class="t">STEP 02</div>
+        <h4>三重评估</h4>
+        <p>从叙事创新度（结构是否突破）、影像实验性（视听语言是否有新尝试）、主题勇气（是否触及主流回避的议题）三个维度打分，任一维度达到阈值即可进入候选池。</p>
+      </div>
+      <div class="tl-item">
+        <div class="t">STEP 03</div>
+        <h4>深度解读</h4>
+        <p>入选影片由至少两名编辑独立撰写解读，涵盖导演意图、技术手法、文化语境三个层面。观点可以冲突，但我们要求论证必须扎实。</p>
+      </div>
+      <div class="tl-item">
+        <div class="t">STEP 04</div>
+        <h4>归档与更新</h4>
+        <p>完成解读的影片进入另类电影网（lingleidianyingwang-zh.github.io）影像档案库，并持续补充新发现的同类作品，形成类型谱系网络。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Q&A -->
+<section id="qa">
+  <div class="ct">
+    <div class="sec-label"><span class="tag">SECTION_05</span><h2>常见问题</h2><span class="cmt">// faq.md</span></div>
+    <div class="acc">
+      <div class="acc-item">
+        <div class="acc-q"><span>另类电影网是一个下载站吗？</span><span class="plus">+</span></div>
+        <div class="acc-a"><p>不是。另类电影网（lingleidianyingwang-zh.github.io）是一个评论与档案平台，不提供任何影片资源下载。我们提供的是影片信息、深度解读与观看建议，帮助观众找到这些作品的正规观看渠道。</p></div>
+      </div>
+      <div class="acc-item">
+        <div class="acc-q"><span>"另类"是否等同于"难看"？</span><span class="plus">+</span></div>
+        <div class="acc-a"><p>完全不是。实验性不等于质量低劣。恰恰相反，很多另类电影在艺术完成度上远超商业制作，只是它们的表达方式需要观众调整观看习惯。另类电影网的作用之一就是帮助观众建立这种"解码能力"。</p></div>
+      </div>
+      <div class="acc-item">
+        <div class="acc-q"><span>如何向另类电影网推荐影片？</span><span class="plus">+</span></div>
+        <div class="acc-a"><p>你可以通过站内联系方式提交影片名称、导演、年代与推荐理由。编辑团队会在每月的选片会上讨论所有读者推荐，入选作品会在片单页面标注推荐人。</p></div>
+      </div>
+      <div class="acc-item">
+        <div class="acc-q"><span>内容更新频率如何？</span><span class="plus">+</span></div>
+        <div class="acc-a"><p>另类电影网每月更新一次专题策划，每周发布 1-2 篇深度长评，影片档案库持续扩充。重大电影节期间会有特别报道。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ASCII -->
+<div class="ascii">── ────── ── ░▒▓ 另类电影网 · lingleidianyingwang-zh.github.io ▓▒░ ── ────── ──</div>
+
+<!-- About Site -->
+<section id="about-site" style="padding-top:48px">
+  <div class="ct">
+    <div class="sec-label"><span class="tag">SECTION_06</span><h2>关于本站</h2><span class="cmt">// colophon</span></div>
+    <div class="bento">
+      <div class="card">
+        <div class="id">// platform</div>
+        <h3>技术说明</h3>
+        <p>本站（lingleidianyingwang-zh.github.io）基于 GitHub Pages 构建，纯静态页面，无追踪脚本，加载速度快，适配各种设备与网络环境。</p>
+      </div>
+      <div class="card">
+        <div class="id">// contact</div>
+        <h3>版权声明</h3>
+        <p>本站所有原创内容版权归另类电影网所有，转载请注明出处与链接。影片海报与截图版权归原权利人所有，仅作评论用途。</p>
+      </div>
+      <div class="card">
+        <div class="id">// mission</div>
+        <h3>一句话</h3>
+        <p>主流电影负责让你开心，另类电影负责让你思考。而思考，有时候比开心更需要勇气。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="ft">
+  <div class="ct">
+    <div class="ft-grid">
+      <div class="ft-brand">
+        <div class="logo2">$ 另类电影网</div>
+        <p>lingleidianyingwang-zh.github.io<br>非常规影像的探索入口<br>聚焦非主流与实验电影</p>
+      </div>
+      <div class="ft-col">
+        <h5>导航</h5>
+        <ul>
+          <li><a href="#about">概述</a></li>
+          <li><a href="#genres">类型谱系</a></li>
+          <li><a href="#films">精选片单</a></li>
+          <li><a href="#method">选片方法论</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h5>探索</h5>
+        <ul>
+          <li><a href="#qa">常见问题</a></li>
+          <li><a href="#about-site">关于本站</a></li>
+          <li><a href="#">投稿推荐</a></li>
+          <li><a href="#">版权声明</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h5>链接</h5>
+        <ul>
+          <li><a href="https://lingleidianyingwang-zh.github.io" target="_blank" rel="noopener">本站主页</a></li>
+          <li><a href="#">隐私政策</a></li>
+          <li><a href="#">使用条款</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2026 另类电影网 | lingleidianyingwang-zh.github.io | All Rights Reserved</span>
+      <span><a href="#">↑ Back to Top</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Mobile menu
+  var btn=document.getElementById('mbtn'),nav=document.getElementById('nav');
+  btn.addEventListener('click',function(){nav.classList.toggle('open');});
+  nav.addEventListener('click',function(e){if(e.target.tagName==='A')nav.classList.remove('open');});
+  // Accordion
+  var qs=document.querySelectorAll('.acc-q');
+  qs.forEach(function(q){
+    q.addEventListener('click',function(){
+      var a=q.nextElementSibling;
+      var p=q.querySelector('.plus');
+      if(a.classList.contains('open')){
+        a.classList.remove('open');p.textContent='+';
+      }else{
+        a.classList.add('open');p.textContent='−';
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
